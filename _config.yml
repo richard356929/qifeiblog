@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
+title: 棋飞博客
+subtitle: '硅基文明终将统治地球'
 description: ''
 keywords:
-author: John Doe
-language: en
-timezone: ''
+author: 棋飞
+language: zh
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://qifeiai.top/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
