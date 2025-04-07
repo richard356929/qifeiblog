@@ -7,8 +7,11 @@ background: '#fff'
 date: 2025-04-07 21:35:39
 updated:
 tags:
+  - linux命令
+  - shell
 categories:
-keywords:
+  - 程序员
+keywords: linux命令,shell,grep,程序员
 description:
 top:
 top_img:
