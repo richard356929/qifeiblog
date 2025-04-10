@@ -1,6 +1,6 @@
 ---
 title: 网站配置google Analytics
-cover: https://img.090227.xyz/file/ae62475a131f3734a201c.png
+cover: https://qifei-blog-1256009448.cos.ap-chengdu.myqcloud.com/qifei-blog/20250407225502.png
 swiper_index: 10
 top_group_index: 10
 background: '#fff'
