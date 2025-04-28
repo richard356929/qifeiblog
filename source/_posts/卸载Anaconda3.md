@@ -8,9 +8,10 @@ date: 2025-04-29 03:34:42
 updated:
 tags:
   - conda
+  - python
 categories:
   - 程序员
-keywords: 卸载,Anaconda3,conda
+keywords: 卸载,Anaconda3,conda,python,python环境
 description: 卸载Anaconda3
 top:
 top_img:
