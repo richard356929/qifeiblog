@@ -32,7 +32,6 @@ highlight_shrink:
 aside:
 ai:
 ---
-![公众号封面背景图.png](https://qifei-blog-1256009448.cos.ap-chengdu.myqcloud.com/qifei-blog/%E5%85%AC%E4%BC%97%E5%8F%B7%E5%B0%81%E9%9D%A2%E8%83%8C%E6%99%AF%E5%9B%BE.png)
 
 官网：
 https://www.anaconda.com/docs/getting-started/miniconda/install#mac-os
