@@ -10,8 +10,8 @@ tags:
   - conda
 categories:
   - 程序员
-keywords:卸载,Anaconda3,conda
-description:卸载Anaconda3
+keywords: 卸载,Anaconda3,conda
+description: 卸载Anaconda3
 top:
 top_img:
 comments:
@@ -33,7 +33,7 @@ ai:
 
 以下是卸载 Anaconda3 的完整步骤（适用于 **macOS/Linux** 系统）：
 
----
+
 
 ### **1. 删除 Anaconda 安装目录**
    ```bash
@@ -41,8 +41,6 @@ ai:
    sudo rm -rf /opt/anaconda3     # 系统级安装（需要管理员权限）
    rm -rf ~/anaconda3            # 用户级安装（无需 sudo）
    ```
-
----
 
 ### **2. 清理环境变量配置**
    - 打开你的 Shell 配置文件（根据你使用的终端类型）：
@@ -63,7 +61,6 @@ ai:
      source ~/.bash_profile  # 或 source ~/.zshrc
      ```
 
----
 
 ### **3. 删除隐藏的 Conda 配置文件**
    ```bash
@@ -71,7 +68,6 @@ ai:
    rm -rf ~/.condarc        # 删除 conda 配置文件
    ```
 
----
 
 ### **4. （可选）清理其他残留文件**
    如果安装过第三方包或缓存，可清理：
@@ -79,7 +75,6 @@ ai:
    rm -rf ~/.cache/conda    # 删除 Conda 缓存
    ```
 
----
 
 ### **验证卸载是否成功**
    - 关闭并重新打开终端，输入以下命令：
@@ -88,7 +83,6 @@ ai:
      ```
      如果显示 `command not found`，说明卸载完成。
 
----
 
 ### **重新安装（可选）**
 如果需要重新安装 Anaconda：
@@ -96,7 +90,6 @@ ai:
    [https://www.anaconda.com/download](https://www.anaconda.com/download)
 2. 安装时建议选择**用户级目录**（如 `~/anaconda3`），避免权限问题。
 
----
 
 ### **注意事项**
 - 如果 Anaconda 是系统级安装（如 `/opt/anaconda3`），卸载时需使用 `sudo`。
