@@ -1046,39 +1046,39 @@ Open_Graph_meta: true
 # Add the vendor prefixes to ensure compatibility
 css_prefix: true
 
-# 首页顶部相关配置
-home_top:
-  enable: true # 开关
-  timemode: date #date/updated
-  title: 生活明朗
-  subTitle: 万物可爱。
-  siteText: anheyu.com
-  category:
-    - name: 运维
-      path: /categories/运维/
-      shadow: var(--anzhiyu-shadow-blue)
-      class: blue
-      icon: anzhiyu-icon-dove
-    - name: 程序员
-      path: /categories/程序员/
-      shadow: var(--anzhiyu-shadow-red)
-      class: red
-      icon: anzhiyu-icon-fire
-    - name: 生活
-      path: /categories/生活日常/
-      shadow: var(--anzhiyu-shadow-green)
-      class: green
-      icon: anzhiyu-icon-book
-  default_descr: 再怎么看我也不知道怎么描述它的啦！
-  swiper:
-    enable: false
-    swiper_css: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.css #swiper css依赖
-    swiper_js: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.js #swiper js依赖
-  banner:
-    tips: 棋飞博客
-    title: Theme-AnZhiYu
-    image: https://bu.dusays.com/2023/05/13/645fa3cf90d70.webp
-    link: https://qifeiai.top/
+# # 首页顶部相关配置
+# home_top:
+#   enable: true # 开关
+#   timemode: date #date/updated
+#   title: 生活明朗
+#   subTitle: 万物可爱。
+#   siteText: anheyu.com
+#   category:
+#     - name: 运维
+#       path: /categories/运维/
+#       shadow: var(--anzhiyu-shadow-blue)
+#       class: blue
+#       icon: anzhiyu-icon-dove
+#     - name: 程序员
+#       path: /categories/程序员/
+#       shadow: var(--anzhiyu-shadow-red)
+#       class: red
+#       icon: anzhiyu-icon-fire
+#     - name: 生活
+#       path: /categories/生活日常/
+#       shadow: var(--anzhiyu-shadow-green)
+#       class: green
+#       icon: anzhiyu-icon-book
+#   default_descr: 再怎么看我也不知道怎么描述它的啦！
+#   swiper:
+#     enable: false
+#     # swiper_css: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.css #swiper css依赖
+#     # swiper_js: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.js #swiper js依赖
+#   banner:
+#     tips: 棋飞博客
+#     title: Theme-AnZhiYu
+#     image: https://bu.dusays.com/2023/05/13/645fa3cf90d70.webp
+#     link: https://qifeiai.top/
 
 # 朋友圈配置
 friends_vue:
@@ -1224,7 +1224,7 @@ rightClickMenu:
 
 # 首页随便逛逛people模式 而非技能点模式，关闭后为技能点模式需要配置creativity.yml
 peoplecanvas:
-  enable: true
+  enable: false
   img: https://upload-bbs.miyoushe.com/upload/2024/07/27/125766904/ba62475f396df9de3316a08ed9e65d86_5680958632268053399..png
 
 # 动效
